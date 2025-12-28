@@ -101,8 +101,8 @@ function calculateCorrectAnswer() {
  */
 function incrementScore() {
 
-    let oldScore = parseInt(document.getElementById("score").innerText);
-    document.getElementById("score").innerText = ++oldScore;
+    let oldScore = parseInt(document.getElementById("correct-score").innerText);
+    document.getElementById("correct-score").innerText = ++oldScore;
 
 }
 
@@ -111,8 +111,8 @@ function incrementScore() {
  */
 function incrementWrongAnswer() {
 
-    let oldScore = parseInt(document.getElementById("incorrect").innerText);
-    document.getElementById("incorrect").innerText = ++oldScore;
+    let oldScore = parseInt(document.getElementById("incorrect-score").innerText);
+    document.getElementById("incorrect-score").innerText = ++oldScore;
     
 }
 
